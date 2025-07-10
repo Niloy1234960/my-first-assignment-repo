@@ -1,0 +1,58 @@
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto; 
+  font-style: normal;
+}
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+  
+header{
+    height: 400px;
+}
+
+.Niloy{
+    display: flex;
+    margin: 0 100px;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.logo{
+    color: #4E47FF;
+    font-size: large;
+    align-items: center;
+}
+
+.sign-btn{
+    background-color: #4E47FF;
+    font-size: 10px;
+    
+    border: none;
+    color: #FFFFFF;
+    padding: 7px 30px;
+    border-radius: 6px;
+}
+
+.Niloy-1{
+    text-align: center;
+    margin: 120px 115px;
+    font-size: 20px;
+}
+
+.stay-button{
+    padding: 8px 15px;
+    font-size: 10px;
+    border-radius: 6px;
+    background-color: #4E47FF;
+    border: none;
+    color: #FFFFFF;
+}
+header{
+    background-image: url('../../Assets/Hero-bg.png');
+}
