@@ -10,6 +10,12 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+.mondal{
+    max-width: 1140px;
+
+
+}
   
 header{
     height: 400px;
@@ -19,7 +25,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1140px;
     margin: 0 100px;
 
 
@@ -43,9 +48,11 @@ header{
 
 .Niloy-1{
     text-align: center;
+    
+
     margin: 120px 115px;
     font-size: 20px;
-    max-width: 1140px;
+
 }
 
 .stay-button{
@@ -65,10 +72,10 @@ header{
 .niloy{
     display: flex;
     justify-content: center;
-
     max-width: 1140px;
-    margin-top: 100px;
-   
+    margin: 0 auto;
+    padding-top: 109px; 
+    
 }
 
 .ghgh{
@@ -88,8 +95,53 @@ header{
 
 img{
     border-radius: 48px;
+    
+   
+    
 }
 
 .clr{
     color: #252432;
+}
+
+
+
+
+
+.stats-container{
+    
+    background-color: #eef0ff;
+    padding: 30px;
+    margin: 100px 80px;
+    text-align: center;
+    border-radius: 24px;
+    
+    
+}
+
+
+
+
+.stats-container h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 1140px;
+   
+    color:#4E47FF;
+}
+
+.stats{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.stat h2{
+    font-size: 28px;
+    margin: 0;
+}
+
+.stats-part p {
+    color: #000000;
 }
