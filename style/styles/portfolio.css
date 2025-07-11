@@ -222,3 +222,32 @@ button{
 button:hover{
    background-color:#2e46e0; 
 }
+ 
+.logo-size{
+    font-size: 90px;
+    color: #4E47FF;
+
+}
+
+.list{
+    display: flex;
+   justify-content: center;
+   gap: 30px;
+   font-size: 10px;
+   color: #8987A1;
+   margin: 50px;
+
+
+}
+
+.add-color{
+    color: #8987A1;
+}
+
+.parent{
+    text-align: center;
+}
+
+div ul li{
+    list-style: none;
+}
