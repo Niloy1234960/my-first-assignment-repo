@@ -145,3 +145,80 @@ img{
 .stats-part p {
     color: #000000;
 }
+
+
+
+.contract-container{
+    width: 850px;
+   /* background-color: ;*/
+   display: flex;
+   
+   justify-content: space-between;
+   padding: 100px 120px  ;
+   margin-right: 300px;
+   background-color: #eef0ff;
+
+   
+   
+   border-radius: 20px;
+}
+
+.left-side{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.right-side{
+    flex: 1.1;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 300px;
+    
+
+}
+
+label{
+    font-size: 14px;
+    color: #333;
+
+}
+
+input,textarea{
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    resize: none;
+    background-color: #fff;
+}
+
+textarea{
+    height: 50px;
+}
+
+button{
+    padding: 12px;
+    background-color: #3d5afe;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+button:hover{
+   background-color:#2e46e0; 
+}
